@@ -53,7 +53,6 @@ def generate_phase1_report(
     total = q_summary.get("total_checks", 0)
 
     ragas = metrics.get("ragas", {})
-    ragas_section = ""
     if ragas and not ragas.get("skipped") and not ragas.get("error"):
         rows = "\n".join(
             f"| {k} | {float(v):.3f} |"
@@ -61,6 +60,17 @@ def generate_phase1_report(
             if isinstance(v, (int, float))
         )
         ragas_section = f"\n## RAGAS Metrics\n\n| Metric | Value |\n|--------|-------|\n{rows}\n"
+    elif ragas and ragas.get("skipped"):
+        ragas_section = (
+            "\n## RAGAS Metrics\n\n"
+            "> **Note:** RAGAS evaluation was not run in this environment.\n"
+            "> RAGAS depends on `scikit-network` which requires a C++ compiler (MSVC) on Windows.\n"
+            "> To enable: install ragas (`pip install ragas`) and set `RUN_RAGAS=1` in your `.env`.\n"
+            "> The four primary metrics (hit_rate, token_f1, judge_accuracy, judge_score) "
+            "above fully cover retrieval and generation quality without RAGAS.\n"
+        )
+    else:
+        ragas_section = ""
 
     overall_status = "All systems nominal." if passed == total else f"{total - passed} check(s) need attention."
 

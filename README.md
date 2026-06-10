@@ -1,5 +1,7 @@
 # Day 10 - Data Pipeline & Data Observability
 
+[![Tests](https://github.com/quocdungTlu/2A202600601_Day-10-Data-Pipeline-Data-Observability/actions/workflows/tests.yml/badge.svg)](https://github.com/quocdungTlu/2A202600601_Day-10-Data-Pipeline-Data-Observability/actions/workflows/tests.yml)
+
 **Student:** Luong Quoc Dung | **ID:** 2A202600601 | **Batch:** Batch 03
 
 End-to-end RAG data pipeline with full observability: ingest academic papers from the
@@ -158,6 +160,23 @@ data/
   results/       Metrics + LLM answers (baseline/corrupted/repaired)
   reports/       phase1_report.md, corruption_report.md
 ```
+
+---
+
+## RAGAS
+
+RAGAS (context_precision, context_recall, faithfulness, answer_relevancy) is supported in the
+codebase via `src/evaluation/metrics.py` but is disabled by default because `scikit-network`
+(a RAGAS dependency) requires a C++ compiler to build on Windows.
+
+To enable on Linux/Mac or Windows with MSVC installed:
+```bash
+pip install ragas
+RUN_RAGAS=1 uv run python script/run_phase1.py
+```
+
+The four primary metrics (retrieval_hit_rate, mean_token_f1, judge_accuracy, mean_judge_score)
+fully cover retrieval and generation quality without RAGAS.
 
 ---
 

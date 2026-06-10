@@ -60,3 +60,10 @@ Crossref REST API. The pipeline ingests, cleans, embeds, and evaluates retrieval
 | Stale rows | 0 / 23 (0.0%) |
 | Threshold | 180 days |
 | Is fresh | ✅ Yes |
+
+## RAGAS Metrics
+
+> **Note:** RAGAS evaluation was not run in this environment.
+> RAGAS depends on `scikit-network` which requires a C++ compiler (MSVC) on Windows.
+> To enable: install ragas (`pip install ragas`) and set `RUN_RAGAS=1` in your `.env`.
+> The four primary metrics (hit_rate, token_f1, judge_accuracy, judge_score) above fully cover retrieval and generation quality without RAGAS.
