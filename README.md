@@ -41,3 +41,4 @@ pip install -r requirements.txt
 ```
 
 Nếu code chưa chạy được thì đó là bình thường. Các bạn cần hoàn thành các file pseudo-code trước, sau đó mới có thể chạy end-to-end.
+# 2A202600601_Day-10-Data-Pipeline-Data-Observability
