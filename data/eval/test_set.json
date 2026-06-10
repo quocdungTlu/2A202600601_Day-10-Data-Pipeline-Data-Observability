@@ -1,0 +1,164 @@
+[
+  {
+    "id": "q000",
+    "question_type": "summary",
+    "question": "What is the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' about?",
+    "ground_truth": "Abstract Large language models (LLMs) increasingly support reasoning, question answering, decision support, and retrieval-augmented knowledge work.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "q001",
+    "question_type": "authors",
+    "question": "Who authored 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "ground_truth": "Kushal Budha, Nikesh Lagun",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "q002",
+    "question_type": "date",
+    "question": "When was 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-06-02",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "q003",
+    "question_type": "summary",
+    "question": "What is the paper 'AI-Powered Smart Advisory System for Precision Agriculture Using Large Language Models and Retrieval-Augmented Generation' about?",
+    "ground_truth": "An AI-powered smart advisory system for Precision Agriculture leveraging Large Language Models and Retrieval-Augmented Generation is presented in this paper.",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6761739"
+    ]
+  },
+  {
+    "id": "q004",
+    "question_type": "authors",
+    "question": "Who authored 'AI-Powered Smart Advisory System for Precision Agriculture Using Large Language Models and Retrieval-Augmented Generation'?",
+    "ground_truth": "Jahnavi Bellapukonda",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6761739"
+    ]
+  },
+  {
+    "id": "q005",
+    "question_type": "date",
+    "question": "When was 'AI-Powered Smart Advisory System for Precision Agriculture Using Large Language Models and Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-05-20",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6761739"
+    ]
+  },
+  {
+    "id": "q006",
+    "question_type": "summary",
+    "question": "What is the paper 'Patch-Aware Retrieval-Augmented Generation for Large Language Model Decision Support in Transportation Infrastructure Delivery' about?",
+    "ground_truth": "Transportation infrastructure agencies rely on large, frequently updated specification documents to support materials acceptance, contract administration, and construction compliance.",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6741395"
+    ]
+  },
+  {
+    "id": "q007",
+    "question_type": "authors",
+    "question": "Who authored 'Patch-Aware Retrieval-Augmented Generation for Large Language Model Decision Support in Transportation Infrastructure Delivery'?",
+    "ground_truth": "Dan Liu, Hao Wang, Hao  Frank Yang, Maria Santo, Bin Hu, Giri Venkiteela",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6741395"
+    ]
+  },
+  {
+    "id": "q008",
+    "question_type": "date",
+    "question": "When was 'Patch-Aware Retrieval-Augmented Generation for Large Language Model Decision Support in Transportation Infrastructure Delivery' published?",
+    "ground_truth": "2026-05-10",
+    "ground_truth_doc_ids": [
+      "10.2139/ssrn.6741395"
+    ]
+  },
+  {
+    "id": "q009",
+    "question_type": "summary",
+    "question": "What is the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models' about?",
+    "ground_truth": "Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods.",
+    "ground_truth_doc_ids": [
+      "10.32473/flairs.39.1.141782"
+    ]
+  },
+  {
+    "id": "q010",
+    "question_type": "authors",
+    "question": "Who authored 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models'?",
+    "ground_truth": "Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins",
+    "ground_truth_doc_ids": [
+      "10.32473/flairs.39.1.141782"
+    ]
+  },
+  {
+    "id": "q011",
+    "question_type": "date",
+    "question": "When was 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models' published?",
+    "ground_truth": "2026-05-06",
+    "ground_truth_doc_ids": [
+      "10.32473/flairs.39.1.141782"
+    ]
+  },
+  {
+    "id": "q012",
+    "question_type": "summary",
+    "question": "What is the paper 'The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models' about?",
+    "ground_truth": "Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings.",
+    "ground_truth_doc_ids": [
+      "10.70121/001c.158711"
+    ]
+  },
+  {
+    "id": "q013",
+    "question_type": "authors",
+    "question": "Who authored 'The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models'?",
+    "ground_truth": "Eason Ni",
+    "ground_truth_doc_ids": [
+      "10.70121/001c.158711"
+    ]
+  },
+  {
+    "id": "q014",
+    "question_type": "date",
+    "question": "When was 'The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models' published?",
+    "ground_truth": "2026-03-15",
+    "ground_truth_doc_ids": [
+      "10.70121/001c.158711"
+    ]
+  },
+  {
+    "id": "q015",
+    "question_type": "summary",
+    "question": "What is the paper 'Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning' about?",
+    "ground_truth": "Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths.",
+    "ground_truth_doc_ids": [
+      "10.3390/app16052244"
+    ]
+  },
+  {
+    "id": "q016",
+    "question_type": "authors",
+    "question": "Who authored 'Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning'?",
+    "ground_truth": "Hyewon Lee, Sungsu Lim",
+    "ground_truth_doc_ids": [
+      "10.3390/app16052244"
+    ]
+  },
+  {
+    "id": "q017",
+    "question_type": "date",
+    "question": "When was 'Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning' published?",
+    "ground_truth": "2026-02-26",
+    "ground_truth_doc_ids": [
+      "10.3390/app16052244"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What papers are about retrieval augmented generation?",
+    "answer": "Retrieval-Augmented Generation (RAG) has emerged as a transformative approach for enhanc-ing large language models (LLMs) by integrating external knowledge sources to address limitations in parametric knowledge and factual accuracy.",
+    "retrieved_titles": [
+      "Retrieval-Augmented Generation With Large Language Models",
+      "Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation",
+      "A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents",
+      "Metode Retrieval-Augmented Generation dalam Pengembangan Chatbot Large Language Model pada Service Informasi Publik Disdukcapil Anambas"
+    ]
+  },
+  {
+    "question": "What is the most recent paper in the corpus?",
+    "answer": "Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost.",
+    "retrieved_titles": [
+      "Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference",
+      "Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation",
+      "A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents",
+      "Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation"
+    ]
+  },
+  {
+    "question": "List papers about large language models and agents.",
+    "answer": "<div> This survey provides a comprehensive analysis of Agentic GraphRAG, an emerging paradigm that integrates Graph-based Retrieval-Augmented Generation (RAG) with Agentic RAG.&nbsp;<span>While large language models know a lot, their knowledge is frozen at training time and they often suffer from hallucinations.",
+    "retrieved_titles": [
+      "A Survey of Agentic GraphRAG: From Retrieval-augmented Generation to Graph-native Agents",
+      "Agentic AI, Retrieval-Augmented Generation, and the Institutional Turn: Legal Architectures and Financial Governance in the Age of Distributional AGI",
+      "Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation",
+      "The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models"
+    ]
+  }
+]

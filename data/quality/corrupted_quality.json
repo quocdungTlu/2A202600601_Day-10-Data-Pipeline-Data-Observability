@@ -1,0 +1,54 @@
+{
+  "row_count": {
+    "value": 25,
+    "threshold": 5,
+    "passed": true
+  },
+  "paper_id_not_null": {
+    "null_count": 0,
+    "passed": true
+  },
+  "paper_id_unique": {
+    "duplicate_count": 5,
+    "unique_count": 20,
+    "passed": false
+  },
+  "title_not_null": {
+    "null_or_empty_count": 0,
+    "passed": true
+  },
+  "summary_not_null": {
+    "null_or_empty_count": 6,
+    "passed": false
+  },
+  "summary_length": {
+    "min_chars": 0,
+    "mean_chars": 1388.6,
+    "max_chars": 2528,
+    "short_by_chars": 6,
+    "short_by_words": 6,
+    "passed": false
+  },
+  "text_for_embedding": {
+    "missing_count": 0,
+    "passed": true
+  },
+  "freshness": {
+    "stale_rows": 6,
+    "pct_stale": 24.0,
+    "total_rows": 25,
+    "threshold_days": 180,
+    "passed": false
+  },
+  "age_days": {
+    "min": 29,
+    "max": 1825,
+    "mean": 497.1
+  },
+  "summary": {
+    "total_checks": 8,
+    "passed_checks": 4,
+    "failed_checks": 4,
+    "overall_passed": false
+  }
+}
